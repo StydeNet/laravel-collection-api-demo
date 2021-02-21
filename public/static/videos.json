@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Sports",
+        "length": 468,
+        "videos": [
+            {
+                "title": "Et reiciendis molestias eveniet est enim delectus.",
+                "description": "Quia et et voluptatum qui est quis. Modi mollitia ipsum porro id quaerat omnis. Quibusdam possimus doloribus porro pariatur aut provident qui. Et ipsum voluptatem possimus vel. Repellat pariatur voluptatibus aut facere enim.",
+                "length": 468,
+                "score": 1437,
+                "channel": "Towne-Doyle",
+                "author": "Herta Von",
+                "tags": ["fugiat", "consequuntur", "molestiae", "est", "quas"],
+                "playlist": "sports"
+            }
+        ]
+    },
+    {
+        "name": "News",
+        "length": 696,
+        "videos": [
+            {
+                "title": "Ut et sint delectus veritatis.",
+                "description": "Est quae dolorem ea voluptas cumque in. Rerum occaecati possimus sint est ratione quis ipsa. Aut in et facere quia. Voluptatem dolorem vel autem sit architecto dolorem harum.",
+                "tags":  ["in", "suscipit", "deleniti", "modi", "vel"],
+                "length": 200,
+                "score":  2172,
+                "channel": "Carroll-Okuneva",
+                "author": "Alvena Barton",
+                "playlist": "news"
+            },
+            {
+                "title": "Recusandae rerum voluptatem reiciendis aut et mollitia.",
+                "description": "Libero aut consequatur voluptatem maiores optio eos maiores. Alias alias magnam dignissimos ut et. Fuga soluta culpa quia odit nihil.",
+                "length": 496,
+                "score": 1999,
+                "channel": "Ruecker, Sporer and O'Keefe",
+                "author": "Samantha Gulgowski",
+                "tags": ["nobis", "quis", "repudiandae", "exercitationem", "a"],
+                "playlist": "news"
+            }
+        ]
+    }
+]
