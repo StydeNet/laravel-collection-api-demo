@@ -1,7 +1,7 @@
 <?php
 
+use App\Api\Contracts\GetPlaylistsWithVideos;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,38 +18,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('videos', function () {
-    $apiUrl = url('api/external-videos'); // https://external-videos.com/videos
-
-    $response = Http::get($apiUrl);
-
-    $data = $response->json()['data'];
-
-    return collect($data)
-        ->map(function ($row) {
-            return [
-                'title' => $row['title'],
-                'description' => $row['description'],
-                'length' => $row['length'],
-                'score' => $row['likes'] + $row['views'],
-                'channel' => $row['channel']['name'],
-                'author' => $row['channel']['author']['name'],
-                'tags' => collect(explode(',', $row['tags']))
-                    ->map(function ($tag) {
-                        return ucfirst($tag);
-                    })
-                    ->all(),
-                'playlist' => $row['playlist'],
-            ];
-        })
-        ->groupBy('playlist')
-        ->map(function ($videos, $playlistName) {
-            return [
-                'name' => Str::title($playlistName),
-                'length' => $videos->sum('length'),
-                'videos' => $videos
-            ];
-        });
+Route::get('videos', function (GetPlaylistsWithVideos $gateway) {
+    return $gateway->get();
 });
 
 /*
