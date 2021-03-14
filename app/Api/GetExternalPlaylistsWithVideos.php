@@ -3,6 +3,7 @@
 namespace App\Api;
 
 use App\Api\Contracts\GetPlaylistsWithVideos;
+use App\Api\Entities\Playlist;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
@@ -24,6 +25,7 @@ class GetExternalPlaylistsWithVideos implements GetPlaylistsWithVideos
                     'description' => $row['description'],
                     'length' => $row['length'],
                     'score' => $row['likes'] + $row['views'],
+                    'views' => $row['views'],
                     'channel' => $row['channel']['name'],
                     'author' => $row['channel']['author']['name'],
                     'tags' => collect(explode(',', $row['tags']))
@@ -36,11 +38,7 @@ class GetExternalPlaylistsWithVideos implements GetPlaylistsWithVideos
             })
             ->groupBy('playlist')
             ->map(function ($videos, $playlistName) {
-                return [
-                    'name' => Str::title($playlistName),
-                    'length' => $videos->sum('length'),
-                    'videos' => $videos
-                ];
+                return new Playlist(Str::title($playlistName), $videos);
             });
     }
 }
