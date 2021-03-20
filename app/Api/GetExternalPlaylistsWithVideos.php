@@ -4,6 +4,7 @@ namespace App\Api;
 
 use App\Api\Contracts\GetPlaylistsWithVideos;
 use App\Api\Entities\Playlist;
+use App\Api\Entities\Video;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
@@ -20,11 +21,11 @@ class GetExternalPlaylistsWithVideos implements GetPlaylistsWithVideos
 
         return collect($data)
             ->map(function ($row) {
-                return [
+                return new Video([
                     'title' => $row['title'],
                     'description' => $row['description'],
                     'length' => $row['length'],
-                    'score' => $row['likes'] + $row['views'],
+                    'likes' => $row['likes'],
                     'views' => $row['views'],
                     'channel' => $row['channel']['name'],
                     'author' => $row['channel']['author']['name'],
@@ -34,7 +35,7 @@ class GetExternalPlaylistsWithVideos implements GetPlaylistsWithVideos
                         })
                         ->all(),
                     'playlist' => $row['playlist'],
-                ];
+                ]);
             })
             ->groupBy('playlist')
             ->map(function ($videos, $playlistName) {
