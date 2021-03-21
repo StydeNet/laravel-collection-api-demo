@@ -1,13 +1,13 @@
 {
     "news": {
         "name": "News",
-        "length": 821,
         "videos": [
             {
                 "title": "Aspernatur magnam velit doloremque adipisci neque quasi.",
                 "description": "Enim nobis consequuntur et. Consequatur est distinctio ducimus eveniet pariatur aut et. Vel vero hic sunt eos laboriosam tenetur.",
                 "length": 236,
-                "score": 2756,
+                "likes": 1408,
+                "views": 1348,
                 "channel": "Nienow, Braun and Romaguera",
                 "author": "Fleta Jacobson",
                 "tags": [
@@ -17,13 +17,15 @@
                     "Est",
                     "Maiores"
                 ],
-                "playlist": "news"
+                "playlist": "news",
+                "score": 2756
             },
             {
                 "title": "Magni accusamus suscipit ullam accusantium perferendis suscipit.",
                 "description": "Delectus repellendus et voluptatibus suscipit. Eaque perspiciatis qui minima sit dignissimos architecto. Est delectus nam cum distinctio. Architecto eum consequatur iure fuga.",
                 "length": 106,
-                "score": 1372,
+                "likes": 545,
+                "views": 827,
                 "channel": "Emard-Parisian",
                 "author": "Earline Walsh",
                 "tags": [
@@ -33,13 +35,15 @@
                     "Vero",
                     "Eius"
                 ],
-                "playlist": "news"
+                "playlist": "news",
+                "score": 1372
             },
             {
                 "title": "Eligendi architecto aliquam sit qui ipsa quos.",
                 "description": "Accusantium quia natus aspernatur. Voluptatem ea rerum consectetur aliquid. Corporis in aut libero ut qui. Autem praesentium provident laborum perspiciatis nesciunt dolor.",
                 "length": 479,
-                "score": 1538,
+                "likes": 525,
+                "views": 1013,
                 "channel": "Rolfson and Sons",
                 "author": "Randall Shields I",
                 "tags": [
@@ -50,19 +54,21 @@
                     "Nihil",
                     "Voluptas"
                 ],
-                "playlist": "news"
+                "playlist": "news",
+                "score": 1538
             }
-        ]
+        ],
+        "length": 821
     },
     "trending": {
         "name": "Trending",
-        "length": 2295,
         "videos": [
             {
                 "title": "Id accusamus molestiae ducimus cupiditate omnis incidunt doloremque.",
                 "description": "Vel qui delectus et architecto corporis repudiandae ducimus. Omnis voluptas quisquam optio dolorum asperiores aut velit delectus. Nihil nostrum vitae dicta est autem possimus eaque. Doloribus minus quod dolores autem nihil numquam deleniti.",
                 "length": 355,
-                "score": 1570,
+                "likes": 1057,
+                "views": 513,
                 "channel": "Beer Group",
                 "author": "Otha Gulgowski",
                 "tags": [
@@ -72,13 +78,15 @@
                     "Temporibus",
                     "Et"
                 ],
-                "playlist": "trending"
+                "playlist": "trending",
+                "score": 1570
             },
             {
                 "title": "Minima qui consequatur voluptatum harum est quam nemo.",
                 "description": "Sit suscipit quia quidem dolore delectus rerum. Quae sed iste aspernatur pariatur. Adipisci repellendus corporis molestias culpa aliquid. Tenetur nihil architecto et minus.",
                 "length": 316,
-                "score": 2402,
+                "likes": 1039,
+                "views": 1363,
                 "channel": "King and Sons",
                 "author": "Dr. Franz Thompson",
                 "tags": [
@@ -88,266 +96,10 @@
                     "Tempore",
                     "Reprehenderit"
                 ],
-                "playlist": "trending"
-            },
-            {
-                "title": "Ut tempore quae officiis minima sed.",
-                "description": "Maiores tempora quo non laborum impedit voluptatibus. Ut aut corporis provident exercitationem ipsum nihil doloremque.",
-                "length": 425,
-                "score": 2495,
-                "channel": "Witting and Sons",
-                "author": "Teresa Kassulke",
-                "tags": [
-                    "Impedit",
-                    "Esse",
-                    "Dolore",
-                    "Featured",
-                    "Nobis",
-                    "Velit"
-                ],
-                "playlist": "trending"
-            },
-            {
-                "title": "Voluptatem explicabo consequatur ut et quia deleniti.",
-                "description": "Fugit minus in ullam officia assumenda. Sed error vero vel nesciunt vitae mollitia. Ut aliquid consequatur a aut ratione rem nam.",
-                "length": 95,
-                "score": 1609,
-                "channel": "O'Conner-Goodwin",
-                "author": "Sterling Cormier",
-                "tags": [
-                    "Vel",
-                    "Recusandae",
-                    "A",
-                    "Porro",
-                    "Et"
-                ],
-                "playlist": "trending"
-            },
-            {
-                "title": "Assumenda voluptas labore dolores tempore itaque.",
-                "description": "Debitis sapiente aut quod nihil. Soluta tempore magni eius. Deleniti aspernatur possimus nulla error. Quasi sapiente assumenda consequatur placeat commodi.",
-                "length": 390,
-                "score": 2157,
-                "channel": "Schuster, Bruen and Mertz",
-                "author": "Abner Zemlak",
-                "tags": [
-                    "Amet",
-                    "Featured",
-                    "Quaerat",
-                    "Laudantium",
-                    "Itaque",
-                    "In"
-                ],
-                "playlist": "trending"
-            },
-            {
-                "title": "Commodi qui autem fuga.",
-                "description": "Non impedit beatae ea. Ex omnis ducimus officiis adipisci provident. Sapiente enim corporis nihil maxime commodi aut et.",
-                "length": 324,
-                "score": 2028,
-                "channel": "Lemke and Sons",
-                "author": "Furman Koepp",
-                "tags": [
-                    "Et",
-                    "Voluptatum",
-                    "Voluptas",
-                    "Dolores",
-                    "Fugiat"
-                ],
-                "playlist": "trending"
-            },
-            {
-                "title": "Dicta molestiae numquam fugit non quibusdam.",
-                "description": "Architecto ab labore iusto harum et impedit. Labore maiores qui illum omnis quas sit. Ea et inventore omnis sunt. Harum repellendus consectetur sint voluptas ea. Ducimus exercitationem ut et sit.",
-                "length": 310,
-                "score": 2074,
-                "channel": "Denesik and Sons",
-                "author": "Makayla Fay",
-                "tags": [
-                    "Aut",
-                    "Et",
-                    "Nihil",
-                    "Suscipit",
-                    "Qui"
-                ],
-                "playlist": "trending"
-            },
-            {
-                "title": "Reprehenderit accusantium ut cupiditate ipsum laudantium aspernatur voluptatem.",
-                "description": "Aspernatur soluta cumque ut ullam accusamus. Eligendi cupiditate animi et ut modi aliquam at. Voluptatem nisi nam consequatur tempora. Vel mollitia velit qui architecto quia sint ipsa et.",
-                "length": 80,
-                "score": 1435,
-                "channel": "Dach, Streich and Schowalter",
-                "author": "Price Deckow",
-                "tags": [
-                    "Inventore",
-                    "Debitis",
-                    "Non",
-                    "Quia",
-                    "Omnis"
-                ],
-                "playlist": "trending"
+                "playlist": "trending",
+                "score": 2402
             }
-        ]
-    },
-    "unlisted": {
-        "name": "Unlisted",
-        "length": 1489,
-        "videos": [
-            {
-                "title": "Repudiandae maxime sint deserunt dignissimos exercitationem earum.",
-                "description": "Natus optio sunt hic pariatur. Delectus quisquam dignissimos odio libero cumque sed sunt. Saepe adipisci magni adipisci at totam minus nihil. Ut sapiente sit occaecati vel provident exercitationem accusantium nostrum.",
-                "length": 443,
-                "score": 2252,
-                "channel": "Corwin-D'Amore",
-                "author": "Peter Gusikowski",
-                "tags": [
-                    "Nesciunt",
-                    "Temporibus",
-                    "Omnis",
-                    "Eveniet",
-                    "Sed"
-                ],
-                "playlist": "unlisted"
-            },
-            {
-                "title": "Saepe maiores id sunt molestias quo rem.",
-                "description": "Illum deleniti omnis tempore consequuntur inventore. Ut labore sapiente ea qui vero rerum. Voluptatum non voluptatem soluta blanditiis.",
-                "length": 256,
-                "score": 1886,
-                "channel": "Flatley, Tromp and Williamson",
-                "author": "Branson Ullrich",
-                "tags": [
-                    "Laborum",
-                    "Enim",
-                    "Ex",
-                    "Maiores",
-                    "Tenetur"
-                ],
-                "playlist": "unlisted"
-            },
-            {
-                "title": "Totam suscipit delectus consectetur voluptates.",
-                "description": "Accusantium quibusdam harum ducimus saepe nihil et. Incidunt esse esse voluptatum similique. Aspernatur et quibusdam soluta. Esse ipsum cumque neque quia exercitationem fugiat consequuntur.",
-                "length": 165,
-                "score": 2534,
-                "channel": "Botsford Group",
-                "author": "Courtney Johnston I",
-                "tags": [
-                    "Vel",
-                    "Rerum",
-                    "Libero",
-                    "Sit",
-                    "Non",
-                    "Featured"
-                ],
-                "playlist": "unlisted"
-            },
-            {
-                "title": "Autem libero laboriosam odit dolorem eum labore.",
-                "description": "Rerum distinctio rem quia saepe ipsum. Quia qui quia doloremque quos provident. Odio rem et ipsam aliquid rerum.",
-                "length": 126,
-                "score": 2446,
-                "channel": "O'Reilly-Auer",
-                "author": "Dr. Beth Becker",
-                "tags": [
-                    "Error",
-                    "Sunt",
-                    "Est",
-                    "Eligendi",
-                    "Sit"
-                ],
-                "playlist": "unlisted"
-            },
-            {
-                "title": "Consequatur atque nisi ullam qui eum.",
-                "description": "Sunt libero voluptas minima. Voluptatem laborum ut molestiae necessitatibus. Eum delectus aliquam in sed. Odit reprehenderit cum animi.",
-                "length": 499,
-                "score": 1312,
-                "channel": "Kautzer-Waters",
-                "author": "Chesley Murray",
-                "tags": [
-                    "Ut",
-                    "Praesentium",
-                    "Featured",
-                    "Placeat",
-                    "Perspiciatis",
-                    "Corrupti"
-                ],
-                "playlist": "unlisted"
-            }
-        ]
-    },
-    "sports": {
-        "name": "Sports",
-        "length": 1295,
-        "videos": [
-            {
-                "title": "Dolorem exercitationem rem pariatur itaque.",
-                "description": "Eveniet eos consequatur expedita sed. Et sed dolore quos dolorum a eos.",
-                "length": 318,
-                "score": 1336,
-                "channel": "Sawayn-Skiles",
-                "author": "Gust Ankunding",
-                "tags": [
-                    "Quia",
-                    "Autem",
-                    "Ratione",
-                    "Illum",
-                    "Ipsam"
-                ],
-                "playlist": "sports"
-            },
-            {
-                "title": "Minima amet sit facilis hic ut ut.",
-                "description": "Sit et et ducimus omnis corporis. Minus aut asperiores aut deserunt eum. Perspiciatis libero ut corporis et et placeat. Et ut cum repellat pariatur blanditiis ut dolores magnam.",
-                "length": 412,
-                "score": 2648,
-                "channel": "Larson-Wiegand",
-                "author": "Therese Bogan",
-                "tags": [
-                    "Featured",
-                    "Molestiae",
-                    "Enim",
-                    "Eos",
-                    "Illum",
-                    "Unde"
-                ],
-                "playlist": "sports"
-            },
-            {
-                "title": "Maiores eos sed nulla necessitatibus.",
-                "description": "Laborum sint repellat doloribus sapiente in repudiandae. Non expedita perspiciatis iusto quia enim quibusdam ut. Omnis incidunt nesciunt fugit accusamus.",
-                "length": 145,
-                "score": 1560,
-                "channel": "VonRueden, Thompson and Gulgowski",
-                "author": "Emery Oberbrunner",
-                "tags": [
-                    "Maxime",
-                    "Explicabo",
-                    "Voluptatem",
-                    "Molestiae",
-                    "Voluptatem"
-                ],
-                "playlist": "sports"
-            },
-            {
-                "title": "Aut eius minus eos deleniti atque.",
-                "description": "Quod ad est quaerat voluptas. Ut fugit blanditiis officia nostrum ut. Velit mollitia sed tempore maxime.",
-                "length": 420,
-                "score": 1510,
-                "channel": "Graham Inc",
-                "author": "Prof. Garrett Deckow",
-                "tags": [
-                    "Vel",
-                    "Non",
-                    "Featured",
-                    "Fugit",
-                    "Harum",
-                    "Dolorem"
-                ],
-                "playlist": "sports"
-            }
-        ]
+        ],
+        "length": 671
     }
 }
