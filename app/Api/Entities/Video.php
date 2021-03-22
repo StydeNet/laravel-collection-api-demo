@@ -2,9 +2,6 @@
 
 namespace App\Api\Entities;
 
-use App\Api\Concerns\HasDynamicAttributes;
-use Illuminate\Contracts\Support\Arrayable;
-
 /**
  * @property int views
  * @property int likes

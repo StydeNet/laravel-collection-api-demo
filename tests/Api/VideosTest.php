@@ -15,7 +15,7 @@ class VideosTest extends TestCase
         ]);
 
         $this->get('api/videos')
-            ->assertJson($this->getJsonData('videos'));
+            ->assertExactJson($this->getJsonData('videos'));
     }
 
     protected function getJsonData($filename)

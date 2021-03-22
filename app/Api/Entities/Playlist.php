@@ -11,7 +11,7 @@ class Playlist implements Arrayable
     /**
      * @var Collection
      */
-    private $videos;
+    private Collection $videos;
 
     public function __construct($name, Collection $videos)
     {
@@ -28,8 +28,13 @@ class Playlist implements Arrayable
     {
         return [
             'name' => $this->name,
-            'videos' => $this->videos,
+            'videos' => $this->videos->toArray(),
             'length' => $this->videos->sum('length'),
         ];
+    }
+
+    public function getVideos(): Collection
+    {
+        return collect($this->videos);
     }
 }
